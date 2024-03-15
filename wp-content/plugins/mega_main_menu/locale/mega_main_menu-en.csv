@@ -1,0 +1,277 @@
+Mega Main Options
+Post Icon
+Select an icon for this post, which will be displayed in the Post Grid.
+Dropdown Menu
+Below are all the locations, which are supported by this theme. Toggle to change their settings.
+Activate Mega Main Menu in the following locations:
+Mega Main Menu and its settings will be displayed in selected locations only after the activation of this location.
+Firstly, You need to create at least one menu and set theme-location for it
+Theme Menu Settings
+Theme Menu Locations
+Layout Options:
+Add to Mega Main Menu:
+You can add search and/or other elements to the primary menu.
+Search Box
+BuddyPress Bar
+WooCart
+WPML switcher
+Height of the first level items
+Set the height for the initial menu container.
+Primary Style
+Select the button style that fits the style of your site.
+Flat
+Buttons
+(+1 option)
+Buttons Height
+Specify the height of the first level buttons. Notice: for "Buttons" style ONLY.
+The logo file
+Select image to be used as logo in Main Mega Menu. It's recommended to use image with transparent background (.PNG) and sizes from 200 to 800 px.
+Maximum logo height
+Maximum logo height (in terms of percentage) in comparison to the height of the initial container.
+Logo positions
+Please select the situations when you want to display logo for this menu.
+Desktop (non-sticky)
+Sticky
+Mobile
+Logo link
+Enter a valid value that can be used as "href" attribute for the link from the logo. Leave blank to use the default WordPress homepage URL.
+Alignment of the first level items
+Choose how to align menu elements of the first level.
+Left
+Center
+Right
+Justify (No Logo!)
+Location of icons in first level elements
+Choose where to place icons for first level items.
+Above
+Disable Icons In First Level Items
+Disable Icons Globally
+Separator
+Select type of separator between the first level items of this menu.
+None
+Smooth
+Sharp
+Rounded corners
+Select the radius value of corners.
+Trigger
+Show dropdowns by "hover" or "click"?
+Hover
+Click
+Dropdowns Animation
+Select the type of animation for displaying dropdowns.
+Warning
+Animation works correctly only in the latest versions of progressive browsers.
+Unfold
+Fading
+Scale
+Down to Up
+Dropdown
+Minimized on Mobile Devices
+If this option is activated you get the collapsed menu on mobile devices.
+Enable
+Label for Mobile Menu
+Here you can specify a label that will be displayed on the mobile version of the menu.
+Menu
+Direction
+Here you can determine the direction of the menu. Horizontal for classic top menu bar. Vertical for sidebar menu.
+Horizontal
+(+5 option)
+Vertical
+Full Width Initial Container
+If this option is enabled then the primary container will try to be the full width.
+Height of the first level items when menu is Sticky (or Mobile)
+Check this option to make the menu sticky. Make sure you have disabled "Sticky" in the theme options. Incompatible with the "Vertical" menu. Sticky does not work on mobile devices. If the menu will be sticky on mobile devices when you open it - you will not be able to click on the last item, because it will always be outside the screen.
+Sticky scroll offset
+Set the length of the scroll for each user to pass before the menu will stick to the top of the window.
+Push Content Down
+Dropdown areas pushes the main website content down instead to dropping down over content. This option will be useful only for "Multi column" and "Full width" dropdowns.
+Shortcode
+You can copy this code and use in the content of the page in order to display this menu. Do not forget to activate mega menu for this location, using the option at the beginning of this page.
+Forced PHP Integration
+If you have knowledge of PHP you can call this function anywhere in order to display this menu. Please use it only if you are a professional.
+You can change any properties for any menu location
+Skin Options:
+Skin
+You can select a skin and only customize the options below that you want to change.
+Initial Container
+Background Gradient (Color) of the primary container
+Background image of the primary container
+You can choose and tune the background image of the primary container.
+First Level Items
+Font of the First Level Item
+You can change size and weight of the font for first level items.
+Text color of the first level item
+Icons in the first level item
+Background Gradient (Color) of the first level item
+Text color of the active first level item
+Background Gradient (Color) of the active first level item
+Background color of the Search Box
+Text and icon color of the Search Box
+Dropdowns
+Background Gradient (Color) of the Dropdown Area
+Font of the dropdown menu item
+Text color of the dropdown menu item
+Icons of the dropdown menu item
+Background Gradient (Color) of the dropdown menu item
+Border color between dropdown menu items
+Text color of the dropdown active menu item
+Background Gradient (Color) of the dropdown active menu item
+Plain Text Color of the Dropdown
+Set of Installed Google Fonts
+Select the fonts to be included on the site. Remember that each additional font increases the time of page loading. Always remove unnecessary fonts. You can see Font faces on this page -
+Font 1
+Fonts Faily
+Custom Icons
+You can add custom raster icons. After saving these settings, icons will become available in a modal window of icon selection. Recommended size 64x64 pixels.
+Custom Icon 1
+Icon File
+Icon File on Hover
+Keep empty to use regular for both.
+Additional Styles:
+Here you can add and edit highlighting styles. After that you can select these styles for menu items in "Appearance -> Menus -> Your Menu Item -> Style of This Item" option.
+Style 1
+Style Name
+Font
+Icon Size
+Text color
+Background Gradient (Color)
+Text color of the active item
+Background Gradient (Color) of the active item
+General
+Skins
+Specific Options
+Custom CSS
+You can place here any necessary custom CSS properties.
+Responsive For Mobile Devices
+Enable responsive properties. If this option is enabled then the menu will be transformed, if the user uses the mobile device.
+Responsive Resolution
+Select on which screen resolution menu will be transformed for mobile devices.
+Sets of icons
+Here you can activate different sets of icons. After saving these settings, icons will become available in a modal window of icon selection. Remember that a larger list of icons requires more time for page loading.
+IcoMoon (1200)
+Glyphicons (200)
+Linearicons (170)
+FontAwesome Light (900)
+FontAwesome Regular (900)
+FontAwesome Solid (900)
+FontAwesome Brands (360)
+Prioritize plugin styles
+If this option is checked - all CSS properties for this plugin will be have "!important" priority.
+"Undefined location" mode
+If this option is checked - all menus will be replaced by Mega Main Menu. This will be useful only for templates where locations of the menu are not defined and template have only one menu.
+Number of widget areas
+Set the number of independent widget areas you need here.
+Language reading direction
+You can select direction of the text for this plugin. LTR - sites where you read text from left to right. RTL - sites where you read text from right to left.
+Left To Right
+Right To Left
+max_input_vars
+This is real value of "max_input_vars" option in the configuration of your server. You can try to increase it in one of the ways that are described in
+Documentation
+Backup of the configuration
+You can make a backup of the plugin configuration and restore this configuration later. Notice: Options of each menu item from the section "Menu Structure" are not imported.
+Download backup file with current settings
+Upload backup file and restore settings. Choose file and click "Save All Settings".
+Reset Configuration
+If you need to reset configuration of this plugin then check this option and click "Save Changes".
+After this action all values of options located on this page will be reset to default values.
+Reset Plugin Configuration
+Settings of the structure
+Here you can deactivate the options that you do not use to customize the menu structure. It helps reduce the number of options and reduce the load on the server.
+Description of the item
+Disable
+Style of the item
+Visibility Control
+Icon of the item
+Hide Text of the Item
+Disable Link
+Pull to the Other Side
+Submenu Type
+Side of dropdown elements
+Submenu Columns
+Enable Full Width Dropdown
+Dropdown Background Image
+Documentation & Support
+Online documentation
+If you need support, have a question or suggestion - Leave a message on our support page
+(opens in new tab)
+Purchase Code
+Enter here the purchase code of this product. This action unlocks the automatic updates for you. See where you can find your
+%s (Invalid)
+%s (Pending)
+sub item
+Move up
+Move down
+Edit Menu Item
+URL
+Navigation Label
+Title Attribute
+Open link in a new window/tab
+CSS Classes (optional)
+Link Relationship (XFN)
+Move
+Up one
+Down one
+To the top
+Original: %s
+Remove
+Cancel
+Search
+Log Out
+Default
+Standard Submenu
+Multicolumn Submenu
+Tabs Submenu
+Grid Submenu
+Posts Grid Submenu
+Posts Grid Submenu (Multisite)
+Widgets area
+Always Visible
+Visible Only for Logged Users
+Visible Only for Unlogged Visitors
+Visible Only for
+Description
+Style of This Item
+Icon of This Item (set empty to hide)
+Hide Text of This Item
+Options of Dropdown
+Post Type for Display in Dropdown
+Side of Dropdown Area
+Drop To Right Side
+Drop To Left Side
+Drop To Center
+Submenu Columns (Not For Standard Drops)
+Enable Full Width Dropdown (only for horizontal menu)
+Mega Main Elements
+Add a "Mega Main Menu" to your sidebar.
+Mega Main Sidebar Menu
+No menus have been created yet.
+Create some
+Title:
+Select Menu:
+Go and create one at Appearance -> Menus
+Mega Main Menu
+MegaMain Extensions
+Select Location
+Select Structure
+Active
+Select Icon
+Search icon
+OK
+You can turn on more icons using
+Use Sets Of Icons
+Also you can add Custom Icons using
+Save All Changes
+Select Image
+Add One More
+Show Icons
+Installed Google Fonts
+Safe Web Fonts (Recommended)
+Keep original
+Stretch to width
+Stretch to height
+Start
+End
+Radial
+Click Here to View Result
+Multifunctional and responsive menu. Features: icons, dropdowns, sticky menu, custom styles, images, google fonts. All in one... To unlock Automatic updates - enter your purchase code on the Plugin Configuration Page.

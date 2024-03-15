@@ -1,0 +1,118 @@
+/* HTML Elements */
+body{
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+/* Webkit */
+::selection{
+    background: @textselectedbg;
+    color: @textselectedcolor;
+}
+/* Gecko/Mozilla */
+::-moz-selection{
+    background: @textselectedbg;
+    color: @textselectedcolor;
+}
+a{
+    color: @linkcolor;
+    .transition();
+    &:hover{
+        color: @linkhovercolor;
+        text-decoration: none;
+    }
+    &:focus{
+        color: @linkhovercolor;
+        outline: none;
+        text-decoration: none;
+    }
+    &:active{
+        color: @linkactivecolor;
+    }
+	& > code{
+		color: @primarycolor;
+	}
+}
+code{
+	color: @primarycolor;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    image-rendering: auto;
+}
+h1, h2, h3, h4, h5, h6{
+    color: @headingcolor;
+    font-family: @headingfont;
+    font-weight: @headingfontweight;
+    line-height: 1.5;
+    margin: 0 0 10px;
+	text-transform: capitalize;
+}
+h1{
+    font-size: 2.8571em;
+}
+h2{
+    font-size: 2.4286em;
+}
+h3{
+    font-size: 2.1429em;
+}
+h4{
+    font-size: 1.7143em;
+}
+h5{
+    font-size: 1.2857em;
+}
+h6{
+    font-size: 1.0714em;
+}
+big{
+    font-size: 125%;
+}
+dd{
+	margin: 0 1rem 1rem;
+    margin-bottom: 24px;
+}
+ul, ol{
+    padding-left: 20px;
+    margin: 0 0 1rem;
+    ul,
+    ol{
+       margin: 0 0 1rem;
+    }
+}
+ul{
+    list-style: disc;
+}
+ol{
+    list-style: decimal;
+}
+li{
+	& > ul,
+	& > ol{
+		margin-bottom: 0;
+	}
+}
+table{
+    border-collapse: separate;
+    border-color: @bordercolor;
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    margin-bottom: 24px;
+    width: 100%;
+    th,
+    td{
+        border-bottom: 1px solid @bordercolor;
+        border-right: 1px solid @bordercolor;
+        padding: 10px;
+    }
+}
+caption{
+    padding: 10px;
+}
+ins{
+    background: fade(@primarycolor,10);
+    text-decoration: none;
+	color: @darkcolor;
+}
